@@ -6,7 +6,7 @@ icon: fa-book
 order: 3
 ---
 
-1. How to add each digits of a number  
+<h5>1.  How to add each digits of a number  </h5>
 ```
 
 import java.util.Scanner; //자바 스캐너를 불러온다
@@ -32,7 +32,7 @@ public class exam1 {
 }
 ```  
 
-2. How to add all the numbers between 'a' and 'b'  
+<h5> 2. How to add all the numbers between 'a' and 'b' </h5> 
 
 ```
 import java.util.Scanner;
@@ -55,7 +55,7 @@ public class exam2 {
     }
 }
 ```  
-3. How to write the multiplication table  
+<h5> 3. How to write the multiplication table </h5>
 
 ```  
 public class exam3 {
@@ -69,7 +69,7 @@ public class exam3 {
 }
 ```  
 
-4. How to write multiplication table #2  
+<h5> 4. How to write multiplication table #2 </h5> 
 - Writing multiplication table in this format:
 2 x 1 = 2, 2 x 2 = 4 ... 2 x 9 = 18  
 3 x 1 = 3 ... 3 x 9 = 27  
@@ -91,7 +91,7 @@ public class exam4 {
 }
 ```  
 
-5. How to write multiplication table #3  
+<h5> 5. How to write multiplication table #3 </h5> 
 - Writing multiplication table in this format:
 2 x 1 = 2, 3 x 1 = 3, ... 9 x 1 = 9  
 2 x 2 = 4, 3 x 2 = 6, ... 9 x 2 = 18  
