@@ -6,7 +6,9 @@ layout: post
 1. x = 원래 수  
 2. 추출한 값을 sum에 더한다  
 3. x/10으로 자리수를 줄인다  
-  
+
+<pre>
+<code>
 import java.util.Scanner; //자바 스캐너를 불러온다
 public class exam1 {
     public static void main(String[] args) {
@@ -26,3 +28,5 @@ public class exam1 {
 
         }
     }
+</code>
+</pre>
