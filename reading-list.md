@@ -30,8 +30,10 @@ public class exam1 {
 
     }
 }
-```
-2. How to add all the numbers between 'a' and 'b'
+```  
+
+2. How to add all the numbers between 'a' and 'b'  
+
 ```
 import java.util.Scanner;
 public class exam2 {
@@ -52,10 +54,10 @@ public class exam2 {
         }
     }
 }
-```
+```  
 3. How to write the multiplication table
 
-```
+```  
 public class exam3 {
     public static void main(String[] args) {
         for (int i = 2; i < 10; i++) {
@@ -65,7 +67,7 @@ public class exam3 {
         }
     }
 }
-```
+```  
 
 4. How to write multiplication table #2
 - Writing multiplication table in this format:
@@ -75,7 +77,7 @@ public class exam3 {
 ...  
 9 x 1 = 9 ... 9 x 9 = 81  
 
-```
+```  
 public class exam4 {
     public static void main(String[] args) {
 
@@ -87,7 +89,7 @@ public class exam4 {
         }
     }
 }
-```
+```  
 
 5. How to write multiplication table #3
 - Writing multiplication table in this format:
@@ -97,7 +99,7 @@ public class exam4 {
 ...  
 2 x 9 = 18, 3 x 9 = 27, ... 9 x 9 = 81
 
-```
+```   
 public class exam5 {
     public static void main(String[] args) {
         for (int x = 1; x < 10; x++) {
@@ -108,4 +110,4 @@ public class exam5 {
         }
     }
 }
-```
+```  
