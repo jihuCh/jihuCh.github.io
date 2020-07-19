@@ -8,7 +8,6 @@ order: 3
 
 <h5>1.  How to add each digits of a number  </h5>
 ```
-
 import java.util.Scanner; //자바 스캐너를 불러온다
 
 public class exam1 {
