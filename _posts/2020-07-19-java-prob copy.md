@@ -16,3 +16,4 @@ What is Google Analytics? 구글 애널리틱스란?
 
 <img src = "/assets/images/ga/image1.png" style = "width:900px; heigt:400px">  
 <img src = "/assets/images/ga/image2.png" style = "width:900px; heigt:400px">
+<img src = "/assets/images/ga/image3.png" style = "width:900px; heigt:400px">
