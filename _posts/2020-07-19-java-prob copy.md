@@ -14,5 +14,5 @@ What is Google Analytics? 구글 애널리틱스란?
 - 자신의 tracking id를 코드에 넣는다
 - 이제 구글 애널리틱스 웹사이트에 들어가서 실행
 
-![image1](image1.png)
-![image1](image1.png)
+<img src = "../assets/ga/image1.png" style = "width:150px; heigt:100px">
+<img src = "../assets/ga/image2.png" style = "width:150px; heigt:100px">
