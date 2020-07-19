@@ -13,3 +13,6 @@ What is Google Analytics? 구글 애널리틱스란?
 - https://analytics.google.com/ 웹사이트에 들어가서 계정을 만든다.
 - 자신의 tracking id를 코드에 넣는다
 - 이제 구글 애널리틱스 웹사이트에 들어가서 실행
+
+<img src="image1.png" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
+<img src="image2.jpg" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
