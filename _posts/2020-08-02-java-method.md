@@ -155,7 +155,7 @@ public class Exam03 {
 }  
 ```  
   
-  
+
 Exam05: 월화수목금토일 method를 통해 print  
 ```  
 public class Exam05 {  
@@ -171,6 +171,95 @@ public class Exam05 {
     }  
 }  
 ```  
+  
+  
+Exam06: Line 출력  
+```  
+  public class Exam06 {  
+    public static void main(String[] arguments){  
+        System.out.println("Line 1");  
+        threeLines();  
+        System.out.println("Line 2");  
+    }  
+  
+    public static void threeLines(){  
+        oneLine();  
+        oneLine();  
+        oneLine();  
+    }  
+    public static void oneLine(){  
+        System.out.println(">");  
+    }  
+}  
+```  
+  
 
+Exam07: 칼로리소모  
+```  
+import java.util.Scanner;  
+public class Exam07 {  
+    public static void cal(double A,int B) {  
+        System.out.println(A*B);  
+    }  
+    public static void main(String[] args) {  
+        Scanner input = new Scanner(System.in);  
+  
+        System.out.println("소모하는 칼로리를 입력하시오. ");  
+        double A = input.nextDouble();  
+  
+        System.out.println("하루동안 걸음을 입력하시오. ");  
+        int B = input.nextInt();  
+  
+        System.out.println(A*B);  
+  
+    }  
+}  
+```  
+  
+
+Exam08: 자동차 연비 구하기  
+```  
+public class Exam08 {  
+    public static void gasoline(double A,double B) {  
+        System.out.println(Math.round(B/A) + "km/L");  
+    }  
+    public static void main(String[] args) {  
+        gasoline(8.86,182.736);  
+    }  
+}  
+```  
+  
+  
+Exam09: 시험성적 확인  
+```  
+import java.util.Scanner;  
+public class Exam09 {   
+    public static void grade(int A) {  
+        if(A>95){  
+            System.out.println("A+");  
+        }  
+        if(A>90){  
+            System.out.println("A0");  
+        }  
+        if(A>80){  
+            System.out.println("B+");  
+        }  
+        if(A>70){  
+            System.out.println("B0");  
+        }  
+        else{  
+            System.out.println("C+");  
+        }  
+    }  
+    public static void main(String[] args) {  
+        Scanner input = new Scanner(System.in);  
+  
+        System.out.println("성적: ");  
+        int A = input.nextInt();  
+  
+        grade(A);  
+    }  
+}  
+```  
 
 
