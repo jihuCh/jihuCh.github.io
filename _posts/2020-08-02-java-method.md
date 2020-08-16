@@ -18,7 +18,7 @@ Method 선언2: public static int
 
 
 Lecture1: 안녕하세요 method 만들기  
-```    
+```java    
 public class Lecture1 {  
     public static void printHello() {//printHello라는 method를 만든다.  
         System.out.println("안녕하세요.");  
@@ -35,10 +35,10 @@ public class Lecture1 {
         printHello();//printHello라는 method를 실행한다.  
     }  
 }  
-```  
+```java  
   
 Lecture2: 넘버 2개의 합 구하는 method   
-```  
+```java  
 public class Lecture2 {
     public static int sum(int a, int b) {
         return a+b;
@@ -56,11 +56,11 @@ public class Lecture2 {
         System.out.println("합2 : "+ result2);
     }
 }
-```  
+```java  
     
   
 Exam01: 4측연산자 method로 만들기  
-```  
+```java  
 public class Exam01 {  
     public static int sum(int a, int b) {  
         return a + b;  
@@ -92,11 +92,11 @@ public class Exam01 {
         System.out.println("Division: " + result5);  
     }  
 }  
-```  
+```java  
   
 
 Exam02: 다른방법#2  
-```  
+```java  
 public class Exam02 {  
     public static int sum(int a, int b) {  
         return a + b;  
@@ -124,11 +124,11 @@ public class Exam02 {
         System.out.println("Division: "+ div(5,3));  
     }  
 }  
-```  
+```java  
 
 
 Exam03: 다른방법#3  
-```  
+```java  
 public class Exam03 {  
     public static void sum(int a, int b) {  
         System.out.println("Addition: " + (a + b));  
@@ -153,11 +153,11 @@ public class Exam03 {
         div(3,2);  
     }  
 }  
-```  
+```java  
   
 
 Exam05: 월화수목금토일 method를 통해 print  
-```  
+```java  
 public class Exam05 {  
     public static void returnWeeks() {  
         String[] weeks = {"월","화", "수", "목", "금", "토", "일"};  
@@ -170,11 +170,11 @@ public class Exam05 {
         returnWeeks();  
     }  
 }  
-```  
+```java  
   
   
 Exam06: Line 출력  
-```  
+```java  
   public class Exam06 {  
     public static void main(String[] arguments){  
         System.out.println("Line 1");  
@@ -191,11 +191,11 @@ Exam06: Line 출력
         System.out.println(">");  
     }  
 }  
-```  
+```java  
   
 
 Exam07: 칼로리소모  
-```  
+```java  
 import java.util.Scanner;  
 public class Exam07 {  
     public static void cal(double A,int B) {  
@@ -214,11 +214,11 @@ public class Exam07 {
   
     }  
 }  
-```  
+```java  
   
 
 Exam08: 자동차 연비 구하기  
-```  
+```java  
 public class Exam08 {  
     public static void gasoline(double A,double B) {  
         System.out.println(Math.round(B/A) + "km/L");  
@@ -227,11 +227,11 @@ public class Exam08 {
         gasoline(8.86,182.736);  
     }  
 }  
-```  
+```java  
   
   
 Exam09: 시험성적 확인  
-```  
+```java  
 import java.util.Scanner;  
 public class Exam09 {   
     public static void grade(int A) {  
@@ -260,6 +260,6 @@ public class Exam09 {
         grade(A);  
     }  
 }  
-```  
+```java  
 
 
